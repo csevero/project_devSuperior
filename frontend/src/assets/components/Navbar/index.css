@@ -18,3 +18,13 @@
 
   color: #ffffff;
 }
+
+@media (max-width: 1100px) {
+  .main-navbar {
+    padding-left: 20px;
+  }
+
+  .main-navbar a {
+    margin-left: 10px;
+  }
+}
