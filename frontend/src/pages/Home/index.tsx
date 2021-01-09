@@ -18,12 +18,12 @@ export default function Home() {
             Escolha o seu pedido e em poucos minutos
             <br /> levaremos na sua porta
           </h3>
-          <Link to='/' className='home-btn-order'>
+          <Link to='/fazer-um-pedido' className='home-btn-order'>
             FAZER PEDIDO
           </Link>
         </div>
         <div className="home-image">
-            <img src={homeImage} alt="home image"/>
+            <img src={homeImage} alt="imagem main"/>
         </div>
       </div>
     </div>

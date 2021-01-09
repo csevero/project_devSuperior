@@ -1,5 +1,6 @@
 .home-container {
   padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 .home-container h1 {
@@ -54,7 +55,7 @@
 }
 
 .home-image img {
-  width: 100%;
+  width: 80%;
 }
 
 @media(max-width: 1100px) {
