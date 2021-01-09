@@ -6,6 +6,7 @@ import "./index.css";
 import Header from "./Header";
 import ProductList from "./ProductList";
 import { Product } from "./types";
+import OrderLocation from "./OrderLocation";
 
 export default function Orders() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -29,6 +30,7 @@ export default function Orders() {
     <div className='orders-container'>
       <Header />
       <ProductList products={products} />
+      <OrderLocation />
     </div>
   );
 }
